@@ -120,7 +120,7 @@ const SearchBar = () => {
         </Col>
 
         <Col xs={9}>
-          <h3>Filtered Products</h3>
+          <h3>Filtered Programs</h3>
           <div className="card-container">
             {filteredProducts.map((product) => (
               <div key={product.id} className="card cards custom-card card-container shadow">
