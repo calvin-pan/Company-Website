@@ -1,0 +1,55 @@
+.two-column-layout {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 1; /* The left column will take 1/2 of the available space */
+    /* Additional styling for the left column */
+  }
+  
+  .right-column {
+    flex: 1; /* The right column will also take 1/2 of the available space */
+    /* Additional styling for the right column */
+  }
+
+  .paddedTitle {
+    padding: 50px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .paddedDescription {
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+  }
+
+  .descriptionContainer {
+    width: 700px;
+  }
+
+  .sponsors {
+    margin-top: 50px;
+  }
+
+  .sponsorsTitle {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .buttonPadding {
+    margin-left: 50px;
+  }
+
+  .image-container {
+    display: flex; /* Use flexbox to make the images appear in a row */
+    gap: 10px; /* Adjust the gap between the images as needed */
+    margin-bottom: 20px;
+  }
+
+  .followTitle {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+  }

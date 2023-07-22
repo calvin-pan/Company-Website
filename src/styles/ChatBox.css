@@ -1,0 +1,48 @@
+.chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .chatbox.open {
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  .chatbox-body {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .chatbox-body .message {
+    margin: 5px 0;
+  }
+  
+  .chatbox-body .user {
+    text-align: right;
+  }
+  
+  .chatbox-body .sender {
+    font-weight: bold;
+  }
+  
+  .chatbox-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #eee;
+  }
+  
+  .chatbox-footer input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .chatbox-footer button {
+    padding: 5px 10px;
+  }
+  

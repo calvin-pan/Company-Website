@@ -1,0 +1,15 @@
+.progress-bar-container {
+    margin-bottom: 50px;
+  }
+
+  .button {
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }

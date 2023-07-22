@@ -1,0 +1,30 @@
+.form-container {
+    width: 500px;
+}
+
+
+.custom-form {
+    width: 500px;/* Set the form width to fill the container */
+    /* Other CSS properties */
+    display: 'flex';
+  }
+
+  .button {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .buttonMargin {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right:10px;
+  }
+
+  .centered-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .marginBottom {
+    margin-bottom: 20px;
+  }

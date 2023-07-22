@@ -1,0 +1,37 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.title {
+    margin: 50px;
+    font-weight: bold;
+}
+
+.locationsTitle {
+    text-align: center;
+    margin: 50px;
+    font-weight: bold;
+}
+
+.accordionContainer {
+    
+    display:flex;
+    justify-content: center;
+}
+
+.accordion {
+    width: 1500px;
+}
+
+.teamTitle {
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.divingBoardTitle {
+    margin: 20px;
+    text-align: center;
+}

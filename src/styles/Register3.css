@@ -1,0 +1,39 @@
+.progress-bar-container {
+    margin-bottom: 50px;
+  }
+
+  .button {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .custom-label {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .input-field {
+    width: 1000px;
+    font-size: 16px;
+    /* Add any other styles you want */
+  }
+
+  .buttonMargin {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right:10px;
+  }
+
+  .marginTop {
+    margin-top: 100px;
+  }
+
+  .marginTop2 {
+    margin-top: 50px;
+  }
+
+  .custom-form {
+    max-width: 400px; /* Set your desired width here */
+    width: 100%;
+    /* Add any other styles you want for the form container */
+  }

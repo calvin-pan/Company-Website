@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+.searchSection {
+    margin-bottom: 40px;
+}
+
+
+.categorySection {
+    margin-bottom: 40px;
+}
+
+.priceSection {
+    margin-bottom: 40px;
+}
+
+.cards {
+    margin-bottom: 20px;
+    
+}
+
+.card.cards {
+    border: 2px solid black;
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+
+  .marginBottom {
+    margin-bottom: 16px;
+  }
+
+  .marginBottomAndTop {
+    margin-bottom: 16px;
+    margin-top: 8px;
+  }
+
+  .card-container.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .rounded-input {
+    border-radius: 20px; /* Adjust the border-radius value as needed */
+    padding: 8px 16px; /* Adjust the padding values as needed */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    align-items: center;
+  }

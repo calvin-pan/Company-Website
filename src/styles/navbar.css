@@ -1,0 +1,10 @@
+.navBarLink {
+    margin: 30px;
+    color: #f0f0f0 !important;
+  }
+
+.custom-navbar {
+  background-color: #333; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  font-size: 22px;
+}
