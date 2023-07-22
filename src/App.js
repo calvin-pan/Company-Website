@@ -40,7 +40,6 @@ function App() {
         <Route path='/Accueil' element = {<Accueil />} />
        <Route path='/PageNotFound' element={ <PageNotFound /> } />
       <Route path='/*'  element={ <Navigate to="/PageNotFound" replace />} />
-      <Route path='*'  element={ <Navigate to="/PageNotFound" replace />} />
         </Routes>
     </HashRouter>/*</Router>*/
   );

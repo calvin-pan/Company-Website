@@ -74,22 +74,18 @@ const SearchBar = () => {
   return (
     <Container>
       <div className="searchSection">
-        <Row>
-          <h3>Search</h3>
-          <input
-            type="text"
-            value={searchTerm}
-            onChange={handleSearch}
-            className="rounded-input"
-          />
-        </Row>
+      <Row>
+        
+        <h3>Search</h3>
+        <input type="text" value={searchTerm} onChange={handleSearch} className="rounded-input"/>
+        
+      </Row>
       </div>
       <Row>
         <Col xs={3}>
           <div className="categorySection">
             <h3>Categories</h3>
-            {[' Recreational Swimming', ' Swimming Lessons', ' Competitive Swim'].map(
-              (category) => (
+              {[' Recreational Swimming', ' Swimming Lessons', ' Competitive Swim'].map((category) => (
                 <div key={category}>
                   <label>
                     <input
@@ -101,11 +97,11 @@ const SearchBar = () => {
                     {category}
                   </label>
                 </div>
-              )
-            )}
+              ))}
           </div>
 
-          <div className="priceSection">
+
+          <div className="priceSection">  
             <h3>Prices</h3>
             {[10, 15, 20, 25, 30, 35, 40, 45, 50].map((price) => (
               <div key={price}>
@@ -127,10 +123,7 @@ const SearchBar = () => {
           <h3>Filtered Products</h3>
           <div className="card-container">
             {filteredProducts.map((product) => (
-              <div
-                key={product.id}
-                className="card cards custom-card card-container shadow"
-              >
+              <div key={product.id} className="card cards custom-card card-container shadow">
                 <h4>{product.name}</h4>
                 <p className="marginBottomAndTop">Category: {product.category}</p>
                 <p className="marginBottom">Price: ${product.price}</p>
@@ -144,3 +137,5 @@ const SearchBar = () => {
 };
 
 export default SearchBar;
+
+
