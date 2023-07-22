@@ -8,7 +8,7 @@ function Aproposdenous() {
         <div>
             <h1 className="title">À Propos de Nous</h1>
             <div className="video-container">
-                <video controls className="video-element">
+                <video controls className="video-element" aria-label="Vidéo de l'intérieur d'une de nos installations">
                     <source src="videos/video.mp4" type="video/mp4"/>
                     Votre navigateur ne prend pas en charge la balise vidéo.
                 </video>
@@ -38,7 +38,7 @@ function Aproposdenous() {
                             <p className="text-center">
                                 Des plongeoirs de 5 et 10 mètres sont disponibles.
                             </p>
-                            <Image src="images/GraphFrench.png" className="mx-auto d-block" alt="Texte alternatif de l'image" height="375px"/>
+                            <Image src="images/Graph.png" className="mx-auto d-block" alt="Graphique de Plongeon sur Tremplin" height="375px" aria-label="Graphique de Plongeon sur Tremplin"/>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
@@ -61,7 +61,7 @@ function Aproposdenous() {
                             <p className="text-center">
                                 Un plongeoir de 7 mètres est disponible.
                             </p>
-                            <Image src="images/GraphFrench.png" className="mx-auto d-block" alt="Texte alternatif de l'image" height="375px"/>
+                            <Image src="images/Graph.png" className="mx-auto d-block" alt="Graphique de Plongeon sur Tremplin" height="375px" aria-label="Graphique de Plongeon sur Tremplin"/>
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
@@ -84,7 +84,7 @@ function Aproposdenous() {
                             <p className="text-center">
                                 Des plongeoirs de 3, 6 et 11 mètres sont disponibles.
                             </p>
-                            <Image src="images/GraphFrench.png" className="mx-auto d-block" alt="Texte alternatif de l'image" height="375px"/>
+                            <Image src="images/Graph.png" className="mx-auto d-block" alt="Graphique de Plongeon sur Tremplin" height="375px" aria-label="Graphique de Plongeon sur Tremplin"/>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
@@ -95,7 +95,7 @@ function Aproposdenous() {
                 <Row>
                     <Col md={4}>
                         <Card>
-                            <Image src="images/person1.jpg" alt="Texte alternatif de l'image" height="375px"/>
+                            <Image src="images/person1.jpg" alt="Photo d'Ethan Grant" height="375px"/>
                             <Card.Body>
                                 <Card.Title className="text-center">Ethan Grant</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted text-center">Entraîneur en chef</Card.Subtitle>
@@ -105,7 +105,7 @@ function Aproposdenous() {
                     </Col>
                     <Col md={4}>
                         <Card>
-                            <Image src="images/person2.jpg" alt="Texte alternatif de l'image" height="375px"/>
+                            <Image src="images/person2.jpg" alt="Photo de Sophia Sterling" height="375px"/>
                             <Card.Body>
                                 <Card.Title className="text-center">Sophia Sterling</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted text-center">Superviseur de la piscine</Card.Subtitle>
@@ -115,7 +115,7 @@ function Aproposdenous() {
                     </Col>
                     <Col md={4}>
                         <Card>
-                            <Image src="images/person3.jpg" alt="Texte alternatif de l'image" height="375px"/>
+                            <Image src="images/person3.jpg" alt="Photo d'Olivier Mitchell" height="375px"/>
                             <Card.Body>
                                 <Card.Title className="text-center">Oliver Mitchell</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted text-center">Instructeur principal</Card.Subtitle>

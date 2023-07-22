@@ -36,13 +36,13 @@ function Home() {
         <h2 className="sponsorsTitle">Sponsors and Partners</h2>
         <Row>
           <Col>
-            <img src="images/sponsor1.png" alt="Image 1" aria-label="Headphones Fans"/>
+            <img src="images/sponsor1.png" alt="Sponsor 1" aria-label="Headphones Fans"/>
           </Col>
           <Col>
-            <img src="images/sponsor2.png" alt="Image 2" aria-label="Great Flowers"/>
+            <img src="images/sponsor2.png" alt="Sponsor 2" aria-label="Great Flowers"/>
           </Col>
           <Col>
-            <img src="images/sponsor3.png" alt="Image 3" aria-label="Mike's Burgers"/>
+            <img src="images/sponsor3.png" alt="Sponsor 3" aria-label="Mike's Burgers"/>
           </Col>
         </Row>
       </Container>

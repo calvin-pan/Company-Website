@@ -11,7 +11,7 @@ function Aboutus(){
         <div aria-description='This page provides information about Serenity Swim Club. It has three sections: a video of the facility, locations, and staff members.'>
             <h1 className="title">About Us</h1>
             <div className="video-container">
-            <video controls className="video-element">
+            <video controls className="video-element" aria-label="Vidéo de l'intérieur d'une de nos installations">
                 <source src="videos/video.mp4" type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>
@@ -44,7 +44,7 @@ function Aboutus(){
                 <p className="text-center">
                 Diving boards of height 5 and 10 m are available.
                  </p>
-                 <Image src="images/Graph.png" className="mx-auto d-block" alt="Image Alt Text" height="375px"/>
+                 <Image src="images/Graph.png" className="mx-auto d-block" alt="Diving Board Graph" height="375px" aria-label="Diving Board Graph"/>
             </Accordion.Body>
              </Accordion.Item>
             <Accordion.Item eventKey="1">
@@ -69,7 +69,7 @@ function Aboutus(){
                 <p className="text-center">
                 A diving board of 7 m is available.
                  </p>
-                 <Image src="images/Graph.png" className="mx-auto d-block" alt="Image Alt Text" height="375px"/>
+                 <Image src="images/Graph.png" className="mx-auto d-block" alt="Diving Board Graph" height="375px" aria-label="Diving Board Graph"/>
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
@@ -94,7 +94,7 @@ function Aboutus(){
                 <p className="text-center">
                 Diving boards of 3, 6, and 11 m are available.
                  </p>
-                 <Image src="images/Graph.png" className="mx-auto d-block" alt="Image Alt Text" height="375px"/>
+                 <Image src="images/Graph.png" className="mx-auto d-block" alt="Diving Board Graph" height="375px" aria-label="Diving Board Graph"/>
                 </Accordion.Body>
             </Accordion.Item>
             </Accordion>
@@ -105,7 +105,7 @@ function Aboutus(){
       <Row>
         <Col md={4}>
           <Card>
-          <Image src="images/person1.jpg" alt="Ethan Grant, the head coach of Serenity Swim Club" height="375px" />
+          <Image src="images/person1.jpg" alt="Picture of Ethan Grant" height="375px" />
             <Card.Body>
             
               <Card.Title className="text-center">Ethan Grant</Card.Title>
@@ -117,7 +117,7 @@ function Aboutus(){
         </Col>
         <Col md={4}>
           <Card>
-          <Image src="images/person2.jpg" alt="Sophia Sterling, the pool supervisor of Serenity Swim Club" height="375px" />
+          <Image src="images/person2.jpg" alt="Picture of Sophia Sterling" height="375px" />
             <Card.Body>
               <Card.Title className="text-center">Sophia Sterling</Card.Title>
               <Card.Subtitle className="mb-2 text-muted text-center">Pool Supervisor</Card.Subtitle>
@@ -127,7 +127,7 @@ function Aboutus(){
         </Col>
         <Col md={4}>
           <Card>
-          <Image src="images/person3.jpg" alt="Olivier Mitchell, the lead instructor of Serenity Swim Club" height="375px"/>
+          <Image src="images/person3.jpg" alt="Picture of Oliver Mitchell" height="375px"/>
             <Card.Body>
               <Card.Title className="text-center">Oliver Mitchell</Card.Title>
               <Card.Subtitle className="mb-2 text-muted text-center">Lead Instructor</Card.Subtitle>
