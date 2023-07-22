@@ -39,8 +39,8 @@ function App() {
         <Route path='/Aproposdenous' element = {<Aproposdenous />} />
         <Route path='/Accueil' element = {<Accueil />} />
        <Route path='/PageNotFound' element={ <PageNotFound /> } />
-      <Route path='/*'  element={ <Navigate to="/PageNotFound" replace />} />
-        </Routes>
+     { <Route path='/*'  element={ <Navigate to="/PageNotFound" replace />} />}
+             </Routes>
     </HashRouter>/*</Router>*/
   );
 }
