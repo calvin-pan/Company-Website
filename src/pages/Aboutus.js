@@ -8,7 +8,7 @@ function Aboutus(){
 
 
     return (
-        <div>
+        <div aria-description='This page provides information about Serenity Swim Club. It has three sections: a video of the facility, locations, and staff members.'>
             <h1 className="title">About Us</h1>
             <div className="video-container">
             <video controls className="video-element">
