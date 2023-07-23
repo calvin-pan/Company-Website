@@ -26,15 +26,6 @@ h1 {
     padding-left: 16px;
   }
 
-  .marginBottom {
-    margin-bottom: 16px;
-  }
-
-  .marginBottomAndTop {
-    margin-bottom: 16px;
-    margin-top: 8px;
-  }
-
   .card-container.shadow {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
@@ -44,4 +35,8 @@ h1 {
     padding: 8px 16px; /* Adjust the padding values as needed */
     border: 1px solid #ccc; /* Optional: Add a border */
     align-items: center;
+  }
+
+  .mBottom {
+    margin-bottom: 16px;
   }

@@ -5,15 +5,15 @@ import Col from 'react-bootstrap/Col';
 import '../styles/SearchBar.css';
 
 const products = [
-  { id: 1, name: 'Recreational Swimming - Weekends - Day', category: ' Recreational Swimming', price: 10 },
-  { id: 2, name: 'Recreational Swimming - Weekdays - Evening', category: ' Recreational Swimming', price: 15 },
-  { id: 3, name: 'Recreational Swimming - Weekends - Day', category: ' Recreational Swimming', price: 20 },
-  { id: 4, name: 'Recreational Swimming - Weekends - Evening', category: ' Recreational Swimming', price: 25 },
-  { id: 5, name: 'Swimming Lessons - Child Lessons', category: ' Swimming Lessons', price: 30 },
-  { id: 6, name: 'Swimming Lessons - Adult Lessons', category: ' Swimming Lessons', price: 35},
-  { id: 7, name: 'Competitive Swim - Beginner', category: ' Competitive Swim', price: 40},
-  { id: 8, name: 'Competitive Swim - Intermediate', category: ' Competitive Swim', price: 45},
-  { id: 9, name: 'Competitive Swim - Advanced', category: ' Competitive Swim', price: 50}
+  { id: 1, name: 'Recreational Swimming - Weekends - Day', category: ' Recreational Swimming', price: 10, description: 'Enjoy recreational swimming on weekends during the day.' },
+  { id: 2, name: 'Recreational Swimming - Weekdays - Evening', category: ' Recreational Swimming', price: 15, description: 'Relax with recreational swimming on weekdays during the evening.' },
+  { id: 3, name: 'Recreational Swimming - Weekends - Day', category: ' Recreational Swimming', price: 20, description: 'Experience recreational swimming on weekends during the day.' },
+  { id: 4, name: 'Recreational Swimming - Weekends - Evening', category: ' Recreational Swimming', price: 25, description: 'Have fun with recreational swimming on weekends during the evening.' },
+  { id: 5, name: 'Swimming Lessons - Child Lessons', category: ' Swimming Lessons', price: 30, description: 'Have your child learn to swim with our specialized swimming lessons.' },
+  { id: 6, name: 'Swimming Lessons - Adult Lessons', category: ' Swimming Lessons', price: 35, description: 'Improve your swimming skills with our adult swimming lessons.'},
+  { id: 7, name: 'Competitive Swim - Beginner', category: ' Competitive Swim', price: 40, description: 'Start your competitive swimming journey with our beginner program.'},
+  { id: 8, name: 'Competitive Swim - Intermediate', category: ' Competitive Swim', price: 45, description: 'Enhance your swimming performance with our intermediate competitive program.'},
+  { id: 9, name: 'Competitive Swim - Advanced', category: ' Competitive Swim', price: 50, description: 'Achieve excellence in swimming with our advanced competitive program.'}
 ];
 
 const SearchBar = () => {
@@ -124,9 +124,10 @@ const SearchBar = () => {
           <div className="card-container">
             {filteredProducts.map((product) => (
               <div key={product.id} className="card cards custom-card card-container shadow">
-                <h4>{product.name}</h4>
-                <p className="marginBottomAndTop">Category: {product.category}</p>
-                <p className="marginBottom">Price: ${product.price}</p>
+                <h4 className="mBottom">{product.name}</h4>
+                <p>{product.description}</p>
+                <p>Category: {product.category}</p>
+                <p>Price: ${product.price}</p>
               </div>
             ))}
           </div>
