@@ -30,7 +30,7 @@ function Contactus(){
   
     return (
         <div>
-            <h1 className="title">Contact Us</h1>
+            <h1 className="title"><span className="serenityText">Contact</span> Us</h1>
 
             <Container>
                 <Row>

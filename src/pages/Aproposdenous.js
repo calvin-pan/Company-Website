@@ -6,7 +6,7 @@ import '../styles/Aboutus.css';
 function Aproposdenous() {
     return (
         <div>
-            <h1 className="title">À Propos de Nous</h1>
+            <h1 className="title"><span className="serenityText">À Propos</span> de Nous</h1>
             <div className="video-container">
                 <video controls className="video-element" aria-label="Vidéo de l'intérieur d'une de nos installations">
                     <source src="videos/video.mp4" type="video/mp4"/>

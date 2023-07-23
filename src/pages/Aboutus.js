@@ -9,9 +9,9 @@ function Aboutus(){
 
     return (
         <div aria-description='This page provides information about Serenity Swim Club. It has three sections: a video of the facility, locations, and staff members.'>
-            <h1 className="title">About Us</h1>
+            <h1 className="title"><span className="serenityText">About</span> Us</h1>
             <div className="video-container">
-            <video controls className="video-element" aria-label="Vidéo de l'intérieur d'une de nos installations">
+            <video controls className="video-element" aria-label="Video of the interior of one of our facilities">
                 <source src="videos/video.mp4" type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>

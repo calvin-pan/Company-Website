@@ -22,6 +22,7 @@
     padding-left: 50px;
     padding-bottom: 50px;
     text-align: justify;
+    line-height: 1.5;
   }
 
   .descriptionContainer {
@@ -53,3 +54,8 @@
     font-weight: bold;
     margin: 50px;
   }
+
+  
+.serenityText {
+  color: #007bff;
+}

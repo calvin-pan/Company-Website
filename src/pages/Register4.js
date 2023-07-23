@@ -19,7 +19,7 @@ function Register4() {
 
     <Stepper1 activestep={3}></Stepper1>
 
-    <h2 className="text-center">Confirmation number: {number}</h2>
+    <h2 className="text-center confirmationNumber">Confirmation number: {number}</h2>
 
     <p className="text-center">A confirmation email has been sent to your provided email address.</p>
     <div className="button-container">

@@ -13,7 +13,7 @@ function Accueil() {
     <div>
       <div className="two-column-layout">
         <div className="left-column">
-          <h1 className="paddedTitle">Bienvenue au Serenity Swim Club.</h1>
+          <h1 className="paddedTitle">Bienvenue au <span className="serenityText">Serenity</span> Swim Club.</h1>
 
           <div className="descriptionContainer">
             <p className="paddedDescription">Plongez dans un monde d'excellence aquatique et rejoignez notre communauté dynamique où les nageurs de tous âges et niveaux de compétence se rassemblent pour améliorer leur technique, renforcer leur endurance et cultiver l'amour de l'eau.

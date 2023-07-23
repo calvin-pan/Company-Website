@@ -38,7 +38,7 @@ function Register1() {
    
     <div>
 
-    <h1 className="title">Registration Form</h1>
+    <h1 className="title"><span className="serenityText">Registration</span> Form</h1>
     <div className = "marginBottom">
     <Stepper1 activestep={0}></Stepper1>
     </div>
@@ -70,31 +70,39 @@ function Register1() {
       
       
         <Form.Group controlId="validationCustom03" className="marginBottom">
-          <Form.Label>Email Address &nbsp;<FormToolTip title={'Please include the @ symbol in your email address.'} /></Form.Label>
-          <div className='row'>
-            <div>
-                <Form.Control type="email" placeholder="Email Address" required />
-            </div>
+        <Form.Label>Email Address &nbsp;<FormToolTip title={'Please include the @ symbol in your email address.'} /></Form.Label>
+        <div className='row'>
+          <div>
+            <Form.Control
+              type="email"
+              placeholder="Email Address"
+              required
+              isInvalid={validated === 'invalid'} // Set isInvalid based on the form's validation state
+            />
+            <Form.Control.Feedback type="invalid">
+              Please provide a valid email address with an @ and a valid domain.
+            </Form.Control.Feedback>
           </div>
-          
+        </div>
+      </Form.Group>
 
-          <Form.Control.Feedback type="invalid" className="marginBottom">
-            Please provide a valid email address. Your email address should have a @ and a valid domain.
-          </Form.Control.Feedback>
-        </Form.Group>
-
-        <Form.Group controlId="validationCustom05">
-          <Form.Label>Phone Number  &nbsp;<FormToolTip title={'Your phone number should have 10 digits.'} /></Form.Label>
-          <div className='row'>
-            <div>
-                <Form.Control type="text" pattern='[0-9]{10}' placeholder="Phone Number" required />
-            </div>
+      <Form.Group controlId="validationCustom05"  className="marginBottom">
+        <Form.Label>Phone Number &nbsp;<FormToolTip title={'Your phone number should have 10 digits.'} /></Form.Label>
+        <div className='row'>
+          <div>
+            <Form.Control
+              type="text"
+              pattern='[0-9]{10}'
+              placeholder="Phone Number"
+              required
+              isInvalid={validated === 'invalid'} // Set isInvalid based on the form's validation state
+            />
+            <Form.Control.Feedback type="invalid">
+              Please provide a 10-digit phone number without the country code.
+            </Form.Control.Feedback>
           </div>
-          
-          <Form.Control.Feedback type="invalid">
-            Please provide a 10 digit phone number.Please do not include the country code.
-          </Form.Control.Feedback>
-        </Form.Group>
+        </div>
+      </Form.Group>
       
         <div className="d-flex justify-content-center">
       <Button href="/" className="buttonMargin">Cancel</Button>

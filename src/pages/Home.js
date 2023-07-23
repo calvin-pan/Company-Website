@@ -13,7 +13,7 @@ function Home() {
     <div>
       <div className="two-column-layout">
         <div className="left-column">
-          <h1 className="paddedTitle">Welcome To Serenity Swim Club.</h1>
+          <h1 className="paddedTitle">Welcome To <span className="serenityText">Serenity</span> Swim Club.</h1>
 
           <div className="descriptionContainer">
             <p className="paddedDescription">Dive into a world of aquatic excellence and join our vibrant community where swimmers of all ages and skill levels come together to improve technique, build endurance, and foster a love for the water.
