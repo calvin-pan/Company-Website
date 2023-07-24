@@ -19,8 +19,8 @@ function Accueil() {
             <p className="paddedDescription">Plongez dans un monde d'excellence aquatique et rejoignez notre communauté dynamique où les nageurs de tous âges et niveaux de compétence se rassemblent pour améliorer leur technique, renforcer leur endurance et cultiver l'amour de l'eau.
               Sous la direction d'entraîneurs expérimentés, notre club inclusif propose des programmes adaptés aux débutants et aux nageurs compétitifs.
               Avec des installations de pointe, nous accordons une grande importance à la sécurité et offrons un environnement sûr.
-              Que vous recherchiez la forme physique, la compétition ou la détente, le Club de Natation Sérénité est votre destination pour une expérience de natation inoubliable.
-              Préparez-vous à faire des éclaboussures avec Sérénité !</p>
+              Que vous recherchiez la forme physique, la compétition ou la détente, Serenity Swim Club est votre destination pour une expérience de natation inoubliable.
+              Préparez-vous à faire des éclaboussures avec Serenity!</p>
           </div>
 
           <div className="buttonPadding">
