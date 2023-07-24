@@ -23,9 +23,10 @@ function Aproposdenous() {
                             <Container>
                                 <Row>
                                     <Col>
-                                        <p>101 Adresse au hasard</p>
+                                        <br />
+                                        <p className="address">101 Random address</p>
                                         <br/>
-                                        <p>Ottawa, Ontario 123 457</p>
+                                        <p className="address">Ottawa, Ontario K1N 6N5</p>
                                         <br/>
                                     </Col>
                                     <Col>
@@ -47,9 +48,10 @@ function Aproposdenous() {
                             <Container>
                                 <Row>
                                     <Col>
-                                        <p>101 Adresse au hasard</p>
+                                        <br />
+                                        <p className="address">102 Random address</p>
                                         <br/>
-                                        <p>Ottawa, Ontario 123 457</p>
+                                        <p className="address">Ottawa, Ontario K2P 0V2</p>
                                         <br/>
                                     </Col>
                                     <Col>
@@ -70,9 +72,10 @@ function Aproposdenous() {
                             <Container>
                                 <Row>
                                     <Col>
-                                        <p>101 Adresse au hasard</p>
+                                        <br />
+                                        <p className="address">103 Random address</p>
                                         <br/>
-                                        <p>Ottawa, Ontario 123 457</p>
+                                        <p className="address">Ottawa, Ontario K1A 0B1</p>
                                         <br/>
                                     </Col>
                                     <Col>

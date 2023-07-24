@@ -34,8 +34,13 @@
 .divingBoardTitle {
     margin: 20px;
     text-align: center;
+    font-size: 28px;
 }
 
 .serenityText {
     color: #007bff;
+  }
+
+.address {
+    font-size: 21px; /* Adjust the value as needed for the desired font size */
   }

@@ -27,10 +27,12 @@ function Aboutus(){
                 <Container>
                     <Row>
                     <Col>
-                    <p>101 Random address</p>
                     <br>
                     </br>
-                    <p>Ottawa, Ontario 123 457</p>
+                    <p className="address">101 Random address</p>
+                    <br>
+                    </br>
+                    <p className="address">Ottawa, Ontario K1N 6N5</p>
                     <br>
                     </br>
                     </Col>
@@ -53,10 +55,12 @@ function Aboutus(){
                 <Container>
                     <Row>
                     <Col>
-                    <p>101 Random address</p>
                     <br>
                     </br>
-                    <p>Ottawa, Ontario 123 457</p>
+                    <p className="address">102 Random address</p>
+                    <br>
+                    </br>
+                    <p className="address">Ottawa, Ontario K2P 0V2</p>
                     <br>
                     </br>
                     </Col>
@@ -78,10 +82,12 @@ function Aboutus(){
                 <Container>
                     <Row>
                     <Col>
-                    <p>101 Random address</p>
                     <br>
                     </br>
-                    <p>Ottawa, Ontario 123 457</p>
+                    <p className="address">103 Random address</p>
+                    <br>
+                    </br>
+                    <p className="address">Ottawa, Ontario K1A 0B1</p>
                     <br>
                     </br>
                     </Col>
