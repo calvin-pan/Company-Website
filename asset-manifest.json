@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Project-2-Step-5/static/css/main.9a799637.css",
-    "main.js": "/Project-2-Step-5/static/js/main.ec06ea34.js",
-    "static/js/787.dd47673a.chunk.js": "/Project-2-Step-5/static/js/787.dd47673a.chunk.js",
-    "index.html": "/Project-2-Step-5/index.html",
-    "main.9a799637.css.map": "/Project-2-Step-5/static/css/main.9a799637.css.map",
-    "main.ec06ea34.js.map": "/Project-2-Step-5/static/js/main.ec06ea34.js.map",
-    "787.dd47673a.chunk.js.map": "/Project-2-Step-5/static/js/787.dd47673a.chunk.js.map"
+    "main.css": "/Fictitious-Company-Website/static/css/main.9a799637.css",
+    "main.js": "/Fictitious-Company-Website/static/js/main.da296fa2.js",
+    "static/js/787.dd47673a.chunk.js": "/Fictitious-Company-Website/static/js/787.dd47673a.chunk.js",
+    "index.html": "/Fictitious-Company-Website/index.html",
+    "main.9a799637.css.map": "/Fictitious-Company-Website/static/css/main.9a799637.css.map",
+    "main.da296fa2.js.map": "/Fictitious-Company-Website/static/js/main.da296fa2.js.map",
+    "787.dd47673a.chunk.js.map": "/Fictitious-Company-Website/static/js/787.dd47673a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a799637.css",
-    "static/js/main.ec06ea34.js"
+    "static/js/main.da296fa2.js"
   ]
 }
