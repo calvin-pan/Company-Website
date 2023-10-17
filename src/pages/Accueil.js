@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Accueil() {
   const openLink = () => {
-    window.location.hash = '/Aboutus';
+    window.location.hash = '/Aproposdenous';
   };
 
   return (
