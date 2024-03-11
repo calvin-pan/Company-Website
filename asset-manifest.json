@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Fictitious-Company-Website/static/css/main.9a799637.css",
-    "main.js": "/Fictitious-Company-Website/static/js/main.da296fa2.js",
-    "static/js/787.dd47673a.chunk.js": "/Fictitious-Company-Website/static/js/787.dd47673a.chunk.js",
-    "index.html": "/Fictitious-Company-Website/index.html",
-    "main.9a799637.css.map": "/Fictitious-Company-Website/static/css/main.9a799637.css.map",
-    "main.da296fa2.js.map": "/Fictitious-Company-Website/static/js/main.da296fa2.js.map",
-    "787.dd47673a.chunk.js.map": "/Fictitious-Company-Website/static/js/787.dd47673a.chunk.js.map"
+    "main.css": "/Company-Website/static/css/main.9a799637.css",
+    "main.js": "/Company-Website/static/js/main.be2c5d42.js",
+    "static/js/787.dd47673a.chunk.js": "/Company-Website/static/js/787.dd47673a.chunk.js",
+    "index.html": "/Company-Website/index.html",
+    "main.9a799637.css.map": "/Company-Website/static/css/main.9a799637.css.map",
+    "main.be2c5d42.js.map": "/Company-Website/static/js/main.be2c5d42.js.map",
+    "787.dd47673a.chunk.js.map": "/Company-Website/static/js/787.dd47673a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a799637.css",
-    "static/js/main.da296fa2.js"
+    "static/js/main.be2c5d42.js"
   ]
 }
